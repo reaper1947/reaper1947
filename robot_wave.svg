@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 300" width="200" height="273">
+  <style>
+    .wave-arm {
+      transform-box: fill-box;
+      transform-origin: top center;
+      animation: wave 1.8s ease-in-out infinite;
+    }
+    @keyframes wave {
+      0%, 100% { transform: rotate(0deg); }
+      30%       { transform: rotate(-35deg); }
+      60%       { transform: rotate(-18deg); }
+      80%       { transform: rotate(-35deg); }
+    }
+    .eye-blink {
+      transform-box: fill-box;
+      transform-origin: center;
+      animation: blink 4s ease-in-out infinite;
+    }
+    @keyframes blink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95%           { transform: scaleY(0.07); }
+    }
+    .pulse {
+      animation: pulse 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes pulse {
+      0%   { fill: #00d4ff; }
+      100% { fill: #a78bfa; }
+    }
+    .scanbar {
+      animation: scan 2.2s linear infinite;
+    }
+    @keyframes scan {
+      0%   { x: 80px; width: 0px; opacity: 0.8; }
+      50%  { x: 80px; width: 44px; opacity: 0.65; }
+      100% { x: 80px; width: 0px; opacity: 0; }
+    }
+  </style>
+
+  <!-- ── Antenna ── -->
+  <line x1="110" y1="16" x2="110" y2="36" stroke="#475569" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="110" cy="9" r="7" class="pulse"/>
+
+  <!-- ── Head ── -->
+  <rect x="62" y="36" width="96" height="72" rx="12" fill="#1e293b" stroke="#00d4ff" stroke-width="1.5"/>
+  <!-- ear bolts -->
+  <circle cx="63"  cy="72" r="5" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <circle cx="157" cy="72" r="5" fill="#334155" stroke="#00d4ff" stroke-width="1"/>
+
+  <!-- left eye -->
+  <g class="eye-blink">
+    <rect x="75" y="52" width="24" height="24" rx="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="83" cy="60" r="3" fill="white" opacity="0.45"/>
+  </g>
+  <!-- right eye -->
+  <g class="eye-blink">
+    <rect x="121" y="52" width="24" height="24" rx="5" fill="#00d4ff" opacity="0.9"/>
+    <circle cx="129" cy="60" r="3" fill="white" opacity="0.45"/>
+  </g>
+
+  <!-- mouth grille -->
+  <rect x="82" y="89" width="56" height="9" rx="4" fill="#0f172a"/>
+  <rect x="84"  y="91" width="9" height="5" rx="2" fill="#a78bfa" opacity="0.8"/>
+  <rect x="97"  y="91" width="9" height="5" rx="2" fill="#00d4ff" opacity="0.8"/>
+  <rect x="110" y="91" width="9" height="5" rx="2" fill="#a78bfa" opacity="0.8"/>
+  <rect x="123" y="91" width="9" height="5" rx="2" fill="#00d4ff" opacity="0.8"/>
+
+  <!-- ── Neck ── -->
+  <rect x="94" y="108" width="32" height="14" rx="4" fill="#334155"/>
+  <rect x="100" y="110" width="8"  height="10" rx="2" fill="#475569"/>
+  <rect x="112" y="110" width="8"  height="10" rx="2" fill="#475569"/>
+
+  <!-- ── Body ── -->
+  <rect x="52" y="122" width="116" height="88" rx="12" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <!-- shoulder bolts -->
+  <circle cx="53"  cy="138" r="5" fill="#334155" stroke="#475569" stroke-width="1"/>
+  <circle cx="167" cy="138" r="5" fill="#334155" stroke="#00d4ff" stroke-width="1"/>
+
+  <!-- chest panel -->
+  <rect x="74" y="133" width="72" height="52" rx="7" fill="#0f172a" stroke="#1e3a5f" stroke-width="1"/>
+  <!-- indicator circles -->
+  <circle cx="90"  cy="153" r="9" fill="#0d2744"/>
+  <circle cx="90"  cy="153" r="6" fill="#a78bfa" opacity="0.85"/>
+  <circle cx="110" cy="153" r="9" fill="#0d2744"/>
+  <circle cx="110" cy="153" r="6" fill="#00d4ff" opacity="0.85"/>
+  <circle cx="130" cy="153" r="9" fill="#0d2744"/>
+  <circle cx="130" cy="153" r="6" fill="#a78bfa" opacity="0.85"/>
+  <!-- charge bar track -->
+  <rect x="80" y="170" width="60" height="7" rx="3" fill="#1e3a5f"/>
+  <!-- animated scan fill -->
+  <rect y="170" height="7" rx="3" fill="#00d4ff" opacity="0.65" class="scanbar"/>
+
+  <!-- ── Left Arm (static) ── -->
+  <g transform="translate(22,127)">
+    <rect x="0" y="0" width="28" height="55" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <rect x="2" y="49" width="24" height="18" rx="7" fill="#334155"/>
+    <line x1="7"  y1="52" x2="7"  y2="64" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="14" y1="52" x2="14" y2="64" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="21" y1="52" x2="21" y2="64" stroke="#475569" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- ── Right Arm (WAVING) — shoulder pivot at translate(170,127) ── -->
+  <g transform="translate(170,127)" class="wave-arm">
+    <rect x="0" y="0" width="28" height="55" rx="10" fill="#1e293b" stroke="#00d4ff" stroke-width="1.5"/>
+    <rect x="2" y="49" width="24" height="18" rx="7" fill="#334155" stroke="#00d4ff" stroke-width="1"/>
+    <line x1="7"  y1="52" x2="7"  y2="64" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="14" y1="52" x2="14" y2="64" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+    <line x1="21" y1="52" x2="21" y2="64" stroke="#00d4ff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <!-- ── Legs ── -->
+  <rect x="69"  y="210" width="36" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <rect x="115" y="210" width="36" height="60" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <!-- knee joints -->
+  <rect x="73"  y="234" width="28" height="9" rx="4" fill="#334155"/>
+  <rect x="119" y="234" width="28" height="9" rx="4" fill="#334155"/>
+
+  <!-- ── Feet ── -->
+  <rect x="63"  y="264" width="46" height="18" rx="8" fill="#334155"/>
+  <rect x="111" y="264" width="46" height="18" rx="8" fill="#334155"/>
+  <rect x="65"  y="267" width="18" height="12" rx="3" fill="#475569"/>
+  <rect x="113" y="267" width="18" height="12" rx="3" fill="#475569"/>
+</svg>
