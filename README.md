@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Reaper1947%20&fontSize=42&fontColor=00d4ff&fontAlignY=38&desc=Robotics%20Software%20Engineer&descAlignY=60&descSize=18&descColor=a78bfa&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Taweeporn%20Maneesin&fontSize=42&fontColor=00d4ff&fontAlignY=38&desc=Robotics%20Software%20Engineer&descAlignY=60&descSize=18&descColor=a78bfa&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -25,6 +25,8 @@
 <!-- ══════════════════════════════════════════════════════════════ -->
 
 ## 🤖 `whoami`
+
+<img src="robot_wave.svg" align="right" width="155" alt="Waving Robot"/>
 
 ```bash
 $ cat about_me.yaml
