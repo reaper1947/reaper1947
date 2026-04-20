@@ -98,14 +98,18 @@ currently:
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=reaper1947&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00d4ff&icon_color=a78bfa&text_color=ffffff"/>
+<!-- Top Languages (stable, works well) -->
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reaper1947&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=ffffff"/>
+
+<!-- Activity Graph -->
+[![Taweeporn's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=reaper1947&bg_color=0d1117&color=00d4ff&line=a78bfa&point=ff6b6b&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=reaper1947&theme=midnight-purple&hide_border=true&background=0d1117&stroke=a78bfa&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff)](https://git.io/streak-stats)
+<!-- Streak Stats -->
+[![GitHub Streak](https://streak-stats.demolab.com?user=reaper1947&theme=transparent&hide_border=true&background=0d1117&stroke=a78bfa&ring=00d4ff&fire=ff6b6b&currStreakLabel=00d4ff&sideLabels=ffffff&dates=888888)](https://git.io/streak-stats)
 
 </div>
 
