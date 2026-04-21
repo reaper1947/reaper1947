@@ -26,8 +26,6 @@
 
 ## 🤖 `whoami`
 
-<img src="robot_wave.svg" align="right" width="155" alt="Waving Robot"/>
-
 ```bash
 $ cat about_me.yaml
 ```
