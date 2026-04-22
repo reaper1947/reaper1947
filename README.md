@@ -1,7 +1,6 @@
 <!-- ══════════════════════════════════════════════════════════════ -->
 <!--                     ANIMATED HEADER                          -->
 <!-- ══════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Peter%20&fontSize=42&fontColor=00d4ff&fontAlignY=38&desc=Robotics%20Software%20Engineer&descAlignY=60&descSize=18&descColor=a78bfa&animation=fadeIn" width="100%"/>
@@ -17,6 +16,9 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Robotics+Software+Engineer;ROS+%7C+ROS2+Developer;Motion+Planning+%26+Control;Autonomy+%26+AI+Integration;Embedded+Systems+Enthusiast)](https://git.io/typing-svg)
 
 </div>
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=reaper1947&label=Profile+Views&color=00d4ff&style=flat-square" alt="Profile Views"/>
+</div>
 
 ---
 
@@ -24,7 +26,7 @@
 <!--                     ABOUT ME                                 -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-##  `whoami`
+##  `About me`
 
 ```bash
 $ cat about_me.yaml
@@ -160,6 +162,4 @@ I believe in building robots that are **robust**, **adaptable**, and **safe** �
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=reaper1947&label=Profile+Views&color=00d4ff&style=flat-square" alt="Profile Views"/>
-</div>
+
