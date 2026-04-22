@@ -14,7 +14,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=🤖+Robotics+Software+Engineer;⚙️+ROS+%7C+ROS2+Developer;🦾+Motion+Planning+%26+Control;🧠+Autonomy+%26+AI+Integration;🔧+Embedded+Systems+Enthusiast)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D4FF&center=true&vCenter=true&width=600&lines=Robotics+Software+Engineer;ROS+%7C+ROS2+Developer;Motion+Planning+%26+Control;Autonomy+%26+AI+Integration;Embedded+Systems+Enthusiast)](https://git.io/typing-svg)
 
 </div>
 
@@ -24,7 +24,7 @@
 <!--                     ABOUT ME                                 -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🤖 `whoami`
+##  `whoami`
 
 ```bash
 $ cat about_me.yaml
@@ -55,34 +55,34 @@ currently:
 <!--                     TECH STACK                               -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## ⚙️ Tech Stack & Tools
+##  Tech Stack & Tools
 
-### 🦾 Robotics & Simulation
+###  Robotics & Simulation
 ![ROS](https://img.shields.io/badge/ROS-22314E?style=for-the-badge&logo=ros&logoColor=white)
 ![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=00D4FF)
 ![Gazebo](https://img.shields.io/badge/Gazebo-FF6600?style=for-the-badge&logo=gazebo&logoColor=white)
 ![MoveIt](https://img.shields.io/badge/MoveIt-0078D7?style=for-the-badge&logo=moveit&logoColor=white)
 ![RVIZ](https://img.shields.io/badge/RViz-22314E?style=for-the-badge&logo=ros&logoColor=white)
 
-### 💻 Programming Languages
+###  Programming Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### 🤖 AI / ML & Perception
+###  AI / ML & Perception
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 
-### 🔧 Embedded & Hardware
+###  Embedded & Hardware
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 
-### 🛠️ Dev Tools & Platforms
+###  Dev Tools & Platforms
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -94,7 +94,7 @@ currently:
 <!--                     GITHUB STATS                             -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## 📊 GitHub Analytics
+##  GitHub Analytics
 
 <div align="center">
 
@@ -119,13 +119,12 @@ currently:
 <!--                   ROBOTICS PHILOSOPHY                        -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🧠 Engineering Philosophy
+##  Engineering Philosophy
 
 > *"A robot that can't handle the unexpected is just an expensive conveyor belt."*
 
 ```
 Sense ──▶ Plan ──▶ Act ──▶ Learn ──▶ repeat()
-  🔭         🧠       🦾       📈
 ```
 
 I believe in building robots that are **robust**, **adaptable**, and **safe** — systems that degrade gracefully under uncertainty and act reliably in the real world.
@@ -136,7 +135,7 @@ I believe in building robots that are **robust**, **adaptable**, and **safe** �
 <!--                     CONNECT                                  -->
 <!-- ══════════════════════════════════════════════════════════════ -->
 
-## 🌐 Let's Connect
+##  Let's Connect
 
 <div align="center">
 
@@ -149,9 +148,9 @@ I believe in building robots that are **robust**, **adaptable**, and **safe** �
 
 <div align="center">
 
-> 🤝 Open to collaborations on robotics, autonomous systems, and embedded AI projects.
+>  Open to collaborations on robotics, autonomous systems, and embedded AI projects.
 > 
-> 📬 Feel free to reach out — let's build something that moves!
+>  Feel free to reach out — let's build something that moves!
 
 </div>
 
