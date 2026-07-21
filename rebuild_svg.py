@@ -68,14 +68,14 @@ def make_svg(dark=True):
     bg_color = "#161b22" if dark else "#ffffff"
     text_color = "#c9d1d9" if dark else "#24292e"
     
-    # 61 lines * 15px = 915px height, plus padding
-    height = 950
-    # Longest string in ascii is 100 chars, so ~700px width. Info takes ~600px
-    width = 1350
+    # 61 lines * 10px = 610px height, plus padding
+    height = 650
+    # Longest string in ascii is ~105 chars, with 8px font width is ~500px. Info takes ~600px
+    width = 1100
     x_offset_ascii = 15
     y_start_ascii = 30
     
-    x_offset_info = 750
+    x_offset_info = 550
     
     svg = f'''<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="{width}px" height="{height}px" font-size="14px">
@@ -95,12 +95,12 @@ size-adjust: 109%;
 text, tspan {{white-space: pre;}}
 </style>
 <rect width="{width}px" height="{height}px" fill="{bg_color}" rx="15"/>
-<text x="{x_offset_ascii}" y="{y_start_ascii}" fill="{text_color}" class="ascii" font-size="12px">
+<text x="{x_offset_ascii}" y="{y_start_ascii}" fill="{text_color}" class="ascii" font-size="8px">
 '''
     for i, line in enumerate(lines):
         # XML escape the line (just in case, but ascii here is safe except maybe ampersands/brackets)
         line = line.replace('<', '&lt;').replace('>', '&gt;').replace('&', '&amp;')
-        svg += f'<tspan x="{x_offset_ascii}" y="{y_start_ascii + i * 14}">{line}</tspan>\n'
+        svg += f'<tspan x="{x_offset_ascii}" y="{y_start_ascii + i * 10}">{line}</tspan>\n'
     svg += '</text>\n'
 
     # Add the info box on the right
