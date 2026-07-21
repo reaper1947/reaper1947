@@ -1,1 +1,3 @@
-requests\nlxml\npython-dateutil
+requests
+lxml
+python-dateutil
