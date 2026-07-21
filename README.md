@@ -100,6 +100,10 @@ currently:
 
 <div align="center">
 
+<!-- lowlighter/metrics generated image -->
+<img src="https://raw.githubusercontent.com/reaper1947/reaper1947/main/github-metrics.svg" alt="Metrics" width="100%"/>
+<br/>
+
 <!-- Top Languages (stable, works well) -->
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reaper1947&layout=compact&langs_count=8&theme=midnight-purple&hide_border=true&bg_color=0d1117&title_color=00d4ff&text_color=ffffff"/>
 
